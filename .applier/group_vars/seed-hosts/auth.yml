@@ -1,6 +1,6 @@
 # LDAP server URL
 ldap_url: "ldap://ipa.shared.example.opentlc.com"
-ldap_ca: "{{ lookup('file', inventory_dir ~ '../ldap-ca.crt') }}"
+ldap_ca: "{{ lookup('file', inventory_dir ~ '/../ldap-ca.crt') }}"
 
 # LDAP BIND config for authentication and groups sync
 ldap_bind_dn: uid=admin,cn=users,cn=accounts,dc=shared,dc=example,dc=opentlc,dc=com
